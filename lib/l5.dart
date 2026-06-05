@@ -13,11 +13,9 @@ void main(){
   String grade2 = score2 >= 80
       ?'A'
       :score2 >= 70
-         ?'B'
-         :score2 >= 60
-           ?'C'
-           :'F';
+          ?'B'
+          :score2 >= 60
+              ?'C'
+              :'F';
   print('Score: $score2  Grade: $grade2');
-
-
 }
